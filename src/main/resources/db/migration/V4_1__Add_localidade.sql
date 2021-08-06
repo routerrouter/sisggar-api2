@@ -1,0 +1,15 @@
+INSERT INTO localidade ("descricao","codigo_armazem") VALUES
+	('ZANGO',1),
+	('VIANA',1),
+	('KILAMBA',1),
+	('CAMAMA',1),
+	('CALEMBA 2',1),
+	('AEROPORTO',1),
+	('CASSENDA',1),
+	('GOLF',1),
+	('TALATONA',1),
+	('CAZENGA',1),
+	('MACULUSSO',1),
+	('MUTAMBA',1),
+	('MAIANGA',1),
+	('BAIRRO POPULAR',1)
