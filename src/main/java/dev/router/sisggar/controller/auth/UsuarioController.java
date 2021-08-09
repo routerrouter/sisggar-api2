@@ -49,7 +49,6 @@ public class UsuarioController {
 	@PostMapping(path="/login" , consumes = {MediaType.APPLICATION_JSON_VALUE} , produces= {MediaType.APPLICATION_JSON_VALUE})
 	public ResponseEntity<UsuarioDto> login(@RequestBody UsuarioDto usuarioDto) {
 		
-		//System.err.print(usuarioDto.getUsername());
 		this.authenticate(usuarioDto.getUsername(), usuarioDto.getPassword());	
 		
 		UsuarioDto user = this.userService.findByUsername(usuarioDto.getUsername());
